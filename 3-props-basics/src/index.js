@@ -6,9 +6,9 @@ import ApprovalCard from './ApprovalCard'
 const App = () => {
     return (
         <div className="ui container comments">
-            <ApprovalCard>
+            {/* <ApprovalCard> */}
                 <ComponentDetail author="Lol" text="hoy there" />
-            </ApprovalCard>
+            {/* </ApprovalCard> */}
             <ComponentDetail author="Lel" text="hey there" />
             <ComponentDetail author="Lil" text="hi there" />
         </div>
