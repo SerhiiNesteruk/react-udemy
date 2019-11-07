@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import SeasonDisaply from './SeasonDisplay';
+import Spinner from './Spinner'
 
 class App extends React.Component {
     // constructor(props) {
@@ -31,7 +32,7 @@ class App extends React.Component {
         );
 
         return(
-            <div>loading...</div>
+            <Spinner message="Show me the money!"/>
         );
     }
 }
